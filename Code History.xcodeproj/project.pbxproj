@@ -8,11 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		CD2E515C2601397900625A38 /* Code_HistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E515B2601397900625A38 /* Code_HistoryApp.swift */; };
-		CD2E515E2601397900625A38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E515D2601397900625A38 /* ContentView.swift */; };
+		CD2E515E2601397900625A38 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E515D2601397900625A38 /* GameView.swift */; };
 		CD2E51602601398100625A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2E515F2601398100625A38 /* Assets.xcassets */; };
 		CD2E51632601398100625A38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2E51622601398100625A38 /* Preview Assets.xcassets */; };
 		CD2E516E2601398200625A38 /* Code_HistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E516D2601398200625A38 /* Code_HistoryTests.swift */; };
 		CD2E51792601398200625A38 /* Code_HistoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E51782601398200625A38 /* Code_HistoryUITests.swift */; };
+		CD4F362B260AC8EF00D8F3AA /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4F362A260AC8EF00D8F3AA /* WelcomeView.swift */; };
+		CD4F3633260ACACB00D8F3AA /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4F3632260ACACB00D8F3AA /* GameColor.swift */; };
+		CD4F363B260ACC5E00D8F3AA /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4F363A260ACC5E00D8F3AA /* BottomTextView.swift */; };
+		CD4F366A260BC4B200D8F3AA /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4F3669260BC4B200D8F3AA /* GameViewModel.swift */; };
+		CD4F366F260BD73200D8F3AA /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4F366E260BD73200D8F3AA /* QuestionView.swift */; };
+		CD4F3674260D06E100D8F3AA /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4F3673260D06E100D8F3AA /* ScoreView.swift */; };
+		CD4F3679260D0B4700D8F3AA /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4F3678260D0B4700D8F3AA /* ScoreViewModel.swift */; };
+		CDC55A792609255D00B7DF13 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC55A782609255D00B7DF13 /* Question.swift */; };
+		CDC55A7E2609288A00B7DF13 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC55A7D2609288A00B7DF13 /* ChoiceTextView.swift */; };
+		CDF2A44E260A84CF005C96AA /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2A44D260A84CF005C96AA /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +42,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CD4F3657260ACF4300D8F3AA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		CD2E51582601397900625A38 /* Code History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2E515B2601397900625A38 /* Code_HistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_HistoryApp.swift; sourceTree = "<group>"; };
-		CD2E515D2601397900625A38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD2E515D2601397900625A38 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		CD2E515F2601398100625A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD2E51622601398100625A38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD2E51642601398100625A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +68,17 @@
 		CD2E51742601398200625A38 /* Code HistoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Code HistoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2E51782601398200625A38 /* Code_HistoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_HistoryUITests.swift; sourceTree = "<group>"; };
 		CD2E517A2601398200625A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4F362A260AC8EF00D8F3AA /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		CD4F3632260ACACB00D8F3AA /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		CD4F363A260ACC5E00D8F3AA /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
+		CD4F3648260ACF4300D8F3AA /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		CD4F3669260BC4B200D8F3AA /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		CD4F366E260BD73200D8F3AA /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		CD4F3673260D06E100D8F3AA /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		CD4F3678260D0B4700D8F3AA /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
+		CDC55A782609255D00B7DF13 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		CDC55A7D2609288A00B7DF13 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		CDF2A44D260A84CF005C96AA /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +112,7 @@
 				CD2E515A2601397900625A38 /* Code History */,
 				CD2E516C2601398200625A38 /* Code HistoryTests */,
 				CD2E51772601398200625A38 /* Code HistoryUITests */,
+				CD4F3647260ACF4300D8F3AA /* Frameworks */,
 				CD2E51592601397900625A38 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,8 +130,10 @@
 		CD2E515A2601397900625A38 /* Code History */ = {
 			isa = PBXGroup;
 			children = (
-				CD2E515B2601397900625A38 /* Code_HistoryApp.swift */,
-				CD2E515D2601397900625A38 /* ContentView.swift */,
+				CD4F3668260BC49800D8F3AA /* ViewModels */,
+				CD4F3632260ACACB00D8F3AA /* GameColor.swift */,
+				CDF2A454260A8540005C96AA /* Views */,
+				CDF2A452260A8509005C96AA /* Models */,
 				CD2E515F2601398100625A38 /* Assets.xcassets */,
 				CD2E51642601398100625A38 /* Info.plist */,
 				CD2E51612601398100625A38 /* Preview Content */,
@@ -130,6 +167,46 @@
 			path = "Code HistoryUITests";
 			sourceTree = "<group>";
 		};
+		CD4F3647260ACF4300D8F3AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD4F3648260ACF4300D8F3AA /* AuthenticationServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD4F3668260BC49800D8F3AA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CD4F3669260BC4B200D8F3AA /* GameViewModel.swift */,
+				CD4F3678260D0B4700D8F3AA /* ScoreViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CDF2A452260A8509005C96AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDC55A782609255D00B7DF13 /* Question.swift */,
+				CDF2A44D260A84CF005C96AA /* Game.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDF2A454260A8540005C96AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDC55A7D2609288A00B7DF13 /* ChoiceTextView.swift */,
+				CD4F363A260ACC5E00D8F3AA /* BottomTextView.swift */,
+				CD2E515B2601397900625A38 /* Code_HistoryApp.swift */,
+				CD2E515D2601397900625A38 /* GameView.swift */,
+				CD4F362A260AC8EF00D8F3AA /* WelcomeView.swift */,
+				CD4F366E260BD73200D8F3AA /* QuestionView.swift */,
+				CD4F3673260D06E100D8F3AA /* ScoreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +217,7 @@
 				CD2E51542601397900625A38 /* Sources */,
 				CD2E51552601397900625A38 /* Frameworks */,
 				CD2E51562601397900625A38 /* Resources */,
+				CD4F3657260ACF4300D8F3AA /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -259,7 +337,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2E515E2601397900625A38 /* ContentView.swift in Sources */,
+				CD4F366F260BD73200D8F3AA /* QuestionView.swift in Sources */,
+				CD4F366A260BC4B200D8F3AA /* GameViewModel.swift in Sources */,
+				CDC55A792609255D00B7DF13 /* Question.swift in Sources */,
+				CD4F3679260D0B4700D8F3AA /* ScoreViewModel.swift in Sources */,
+				CD4F362B260AC8EF00D8F3AA /* WelcomeView.swift in Sources */,
+				CDF2A44E260A84CF005C96AA /* Game.swift in Sources */,
+				CD2E515E2601397900625A38 /* GameView.swift in Sources */,
+				CD4F363B260ACC5E00D8F3AA /* BottomTextView.swift in Sources */,
+				CD4F3674260D06E100D8F3AA /* ScoreView.swift in Sources */,
+				CD4F3633260ACACB00D8F3AA /* GameColor.swift in Sources */,
+				CDC55A7E2609288A00B7DF13 /* ChoiceTextView.swift in Sources */,
 				CD2E515C2601397900625A38 /* Code_HistoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +507,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Code History/Preview Content\"";
+				DEVELOPMENT_TEAM = X88XV8JBJ6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Code History/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -440,6 +529,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Code History/Preview Content\"";
+				DEVELOPMENT_TEAM = X88XV8JBJ6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Code History/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
